@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="display">
+     <input id="display" placeholder="0" disabled>
+     <h2 id="history"></h2>
+        </div>
+
+        <div class="teclas">
+            <button class="button apagar" onclick="limpar()">AC</button>
+            <button class="button operador" onclick="addoperador('/')"></button>
+        </div>
+
+        <div class="teclas">
+            <button class="numero" onclick="addnumero(7)">7</button>
+            <button class="numrero" onclick="addnumero(8)">8</button>
+            <button class="numero" onclick="addnumero(9)">9</button>
+        </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
