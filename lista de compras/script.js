@@ -10,7 +10,7 @@ function adicionaritem() {
 
    novoItem.innerHTML = `
         <span>${input.value}</span>
-        <button class="btn-apagar" onclick="removerItem(this)">Apagar</button>
+        <button class="apagar" onclick="removerItem(this)">X</button>
     `;
 
       lista.appendChild(novoItem);
