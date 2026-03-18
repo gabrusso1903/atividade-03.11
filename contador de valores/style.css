@@ -1,0 +1,58 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: rgb(34, 30, 45);
+}
+#contador{
+    background-color: rgb(51, 51, 59);
+    padding: 32px;
+    border-radius: 8px;
+}
+#contador div{
+    display: flex;
+    align-items: center;
+}
+#value{
+    font-size: 128px;
+    color: aliceblue;
+    min-width: 224px ;
+    text-align: center;
+}
+button{
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+button:hover{
+    opacity: .8;
+
+}
+.contadorbt{
+    width: 96px;
+    height: 96px;
+    font-size: 48px;
+    background-color: rgb(34, 31, 40);
+    margin-right: 16px;
+}
+.contadorbt:last-child{
+    margin-right: 0px;
+    margin-left: 16px;
+}
+#reset{
+    width: 100%;
+    font-size: 29px;
+    background-color: rgb(98, 43, 226);
+    padding: .128px 0;
+    margin-top: 16px;
+}
